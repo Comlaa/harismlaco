@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:18px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    background-color:lightgray;
+}
+
+.MainHD:after{
+    content: '' ;
+    height: 100vh;
+    width: 100vw;
+    background-image:url('../img/pozadina.jpg');
+    background-size:cover;
+    background-position:center;
+    display:block;
+}
+
+.text{
+    position: absolute;
+    z-index:1;
+    top:45%;
+    left:40%;
+    text-align: center;
+}
+.text p{
+    font-size:14px;
+}
+
+.socialMedia{
+    position: absolute;
+    z-index:1;
+    top:85%;
+    left:70%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+@media(max-width:560px)
+{
+    body{
+        line-height: 1.2;
+        font-size:14px;   
+    }
+
+    .text p{
+        font-size:11px;
+    }
+
+    .socialMedia{
+        font-size:13px;
+    }
+}
