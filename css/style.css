@@ -13,14 +13,12 @@ body{
     background-color:lightgray;
 }
 
-.MainHD:after{
-    content: '' ;
+.MainHD{
     height: 100vh;
     width: 100vw;
     background-image:url('../img/pozadina.jpg');
     background-size:cover;
     background-position:center;
-    display:block;
 }
 
 .text{
@@ -43,6 +41,10 @@ body{
 a{
     text-decoration: none;
     color:white;
+}
+
+a:hover{
+    color:lightblue;
 }
 
 @media(max-width:560px)
