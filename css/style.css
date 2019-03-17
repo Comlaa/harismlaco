@@ -37,7 +37,7 @@ body{
     position: absolute;
     z-index:1;
     top:85%;
-    left:80%;
+    left:75%;
 }
 .socialMedia a{
     text-decoration: none;
@@ -88,7 +88,7 @@ body{
     color:wheat	;
 }
 
-@media(max-width:580px)
+@media(max-width:560px)
 {
     body{
         line-height: 1.2;
@@ -101,7 +101,7 @@ body{
 
     .socialMedia{
         font-size:13px;
-        left:65%;
+        left:75%;
     }
 
     .AboutMe{   
