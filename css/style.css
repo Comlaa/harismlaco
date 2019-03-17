@@ -88,7 +88,7 @@ body{
     color:wheat	;
 }
 
-@media(max-width:570px)
+@media(max-width:580px)
 {
     body{
         line-height: 1.2;
