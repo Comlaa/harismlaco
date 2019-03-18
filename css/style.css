@@ -10,8 +10,6 @@ body{
     font-size:18px;
     line-height: 1.4;
     letter-spacing: 1px;
-    background-image:url('../img/PozStr.jpg');
-    background-size:cover;
 }
 
 .MainHD{
@@ -45,7 +43,7 @@ body{
 }
 
 .socialMedia a:hover{
-    color:lightblue;
+    color:#279ef9;
 }
 
 .AboutMe{   
@@ -56,7 +54,6 @@ body{
 
 .Naslov {
     padding:3% 0;
-    font-size:17px;
 }
 
 .slike{
@@ -70,23 +67,43 @@ body{
     height:30%;
 }
 
-.ProcitajVise{
-    margin-top:3%;
-    padding:3px;
-    background-color:darkgray;
-    width:10%;
-    margin-left:45%;
-    border-radius: 	10px;
+.AboutMe{
+    background-image:url('../img/PozStr.jpg');
+    background-size:cover;
+    margin:0;
+    height: 100vh;
+    width: 100vw;
 }
-
 .AboutMe a{
     text-decoration: none;
     color:black;
 }
 
-.ProcitajVise:hover{
-    color:wheat	;
+.o_meni{
+    position: absolute;
+    z-index:1;
+    top:85%;
+    margin-left:10%;
 }
+.o_meni a{
+    color:white;
+    font-size:25px;
+}
+
+.o_meni a:hover{
+    color:#279ef9;
+}
+
+.Text h3{
+    margin-top:3%;
+    text-align: center;
+    
+}
+
+.Text p{
+    margin-left:62%;
+}
+
 
 @media(max-width:580px)
 {
