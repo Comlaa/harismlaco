@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image:url('../img/PozStr.jpg');
+    background-size:cover;
+    margin:0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.Text h3{
+    margin-top:3%;
+    text-align: center;
+    
+}
+
+.Text p{
+    margin-left:32%;
+}
+
+.AboutMe{   
+    color:white;
+    text-align: center;
+    margin-top:3%;
+}
+
+.Naslov {
+    padding:3% 0;
+}
+
+.slike{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+#sl1, #sl2, #sl3{
+    border-radius:10px;
+    width:30%;
+    height:30%;
+}
+
+.AboutMe a{
+    text-decoration: none;
+    color:black;
+}
+
+.o_meni{
+    position: absolute;
+    z-index:1;
+    top:85%;
+    margin-left:10%;
+}
+.o_meni a{
+    color:white;
+    font-size:25px;
+}
+
+.o_meni a:hover{
+    color:#279ef9;
+}
+
+@media(max-width:580px)
+{
+
+    body{
+        overflow: auto;
+    }
+    .slike{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #sl1, #sl2, #sl3{
+        border-radius:10px;
+        width:100%;
+        height:100%;
+        margin-bottom: 5%;
+    }
+
+    .AboutMe{   
+        margin-top:7%;
+    }
+
+    .Naslov {
+        margin-top:4%;
+        font-size:15px;
+    }
+
+    .o_meni{
+        top:120%;
+    }
+
+    .Text p{
+        margin-lefT:68%;
+        margin-right: 2%;
+    }
+}
